@@ -95,7 +95,7 @@ for j in 1...4{
 
 
 
-var grade = 100
+var grade = 10
 if (grade < 50){
 print("F")
 }
@@ -119,4 +119,7 @@ print("D+")
 }
 else if (grade >= 50 && grade <= 54){
 print("D")
+}
+else {
+print("Error, score isn't corrected")
 }
