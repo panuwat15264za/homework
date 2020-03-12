@@ -1,42 +1,47 @@
 import UIKit
-
-/*var inputNumber1 = Double(10)
-var inputNumber2 = Double(5)
+//ข้อ1
+/*var inputNumber1 = Double(5)
+var inputNumber2 = Double(4)
 var summary = inputNumber1 + inputNumber2
 var different = inputNumber1 - inputNumber2
 var multiply = inputNumber1 * inputNumber2
-var divide = inputNumber1 / inputNumber2*/
+var divide = inputNumber1 / inputNumber2
+print("Input Number1: 5")
+print("Input Number2: 4")
+print(" Summary = = 5 + 4 =\(summary)")
+print(" Different = = 5 - 4 =\(different)")
+print(" Multiply = = 5 x 4 =\(multiply)")
+print(" Divide = = 5 / 4 =\(divide)")*/
 
-
-
+//ข้อ2
 /*var moonflower = "***********************************"
-var bank1000 = 5, bank500 = 0,bank100 = 3,bank50 = 0,bank20 = 2,coin10 = 0,coin5 = 1,coin2 = 0,coin1 = 1
-var Change = ("Pay - Cost")
-print ("change = " + Change)
-print (moonflower)
-print ("Input Currency: 5346")
-print (moonflower)
-print ("""
-B1000 = \(bank1000 / 1000)
-    B1000 = \(bank1000 % 1000)
-B500 = \(bank1000 / 500)
-    B500 = \(bank1000 % 500)
-B100 = \(bank500 / 100)
-    B100 = \(bank500 % 100)
-B50 = \(bank100 / 100)
-    B50 = \(bank100 % 50)
-B20 = \(bank50 / 100)
-    B20 = \(bank50 % 20)
-C10 = \(bank20 / 10)
-    C10 = \(bank20 % 10)
-C5 = \(coin5 / 5)
-C2 = 0
-C1 = \(coin1 / 1)
-""")
+var inputCurrency:Int = 5346
+var B1000 = 5346/1000
+var B500 = (5346%1000)/500
+var B100 = ((5346%1000)%500)/100
+var B50 = (((5346%1000)%500)%100)/50
+var B20 = ((((5346%1000)%500)%100)%50)/20
+var C10 = (((((5346%1000)%500)%100)%50)%20)/10
+var C5 = ((((((5346%1000)%500)%100)%50)%20)%10)/5
+var C2 = (((((((5346%1000)%500)%100)%50)%20)%10)%5)/2
+var C1 = ((((((((5346%1000)%500)%100)%50)%20)%10)%5)%2)/1
+print("***********************************")
+print("Input Currency : \(inputCurrency)")
+print("***********************************")
+print("Bank1000 = \(B1000)")
+print("Bank500 = \(B500)")
+print("Bank100 = \(B100)")
+print("Bank50 = \(B50)")
+print("Bank20 = \(B20)")
+print("Coin10 = \(C10)")
+print("Coin5 = \(C5)")
+print("Coin2 = \(C2)")
+print("Coin1 = \(C1)")
 print (moonflower)*/
 
 
 
+//ข้อ3
 /*var evenOdd = 19
 print ("Number is \(evenOdd)")
 if(evenOdd % 2==0)
@@ -68,6 +73,7 @@ else if evenOdd%2 != 0
     
 
 
+//ข้อ4
 /*print ("Multiplication table")
 var inputNumber = 1
 for input in 1...12
@@ -79,23 +85,8 @@ for input in 1...12
 }*/
 
 
-
-/*var moonflower = "";
-for j in 1...4{
-    for _ in 1...j
-    {
-        moonflower = moonflower + ""
-    }
-    for _ in 1...1
-    {
-        moonflower = moonflower + "*"
-    }
-    print ("\(moonflower)")
-}*/
-
-
-
-var grade = 10
+//ข้อ7
+/*var grade = 10
 if (grade < 50){
 print("F")
 }
@@ -122,4 +113,74 @@ print("D")
 }
 else {
 print("Error, score isn't corrected")
-}
+}*/
+
+
+
+//ข้อ5
+/*for primeNumber in 1...100000{
+    if ((primeNumber==1 || primeNumber%2==0 || primeNumber%3==0 || primeNumber%5==0 || primeNumber%7==0) && (primeNumber != 2 && primeNumber != 3 && primeNumber != 5 && primeNumber != 7)){
+         continue
+    }
+    print("จำนวนเฉพาะตั้งแต่ 1 - 100,000 :", primeNumber)
+}*/
+
+
+
+//6.1
+/*var moonflower = "";
+for j in 1...4{
+    for _ in 1...j
+    {
+        moonflower = moonflower + ""
+    }
+    for _ in 1...1
+    {
+        moonflower = moonflower + "*"
+    }
+    print ("\(moonflower)")
+}*/
+
+//6.2
+/*var moonflower = "";
+for j in 1...4{
+    for _ in 1...j
+    {
+        moonflower = moonflower + ""
+    }
+    for _ in 1...1
+    {
+        moonflower = moonflower + " *"
+    }
+    print ("\(moonflower)")
+}*/
+
+//6.5
+/*var moonflower = "";
+for j in 1...4{
+    for _ in 1...j
+    {
+        moonflower = moonflower + ""
+    }
+    for _ in 1...1
+    {
+        moonflower = moonflower + "* "
+    }
+    for _ in 1...1
+    {
+        moonflower = moonflower + "* "
+    }
+    for _ in 1...j
+    {
+        moonflower = moonflower + ""
+    }
+    for _ in 1...1
+    {
+        moonflower = moonflower + "* "
+    }
+    for _ in 1...1
+    {
+        moonflower = moonflower + "* "
+    }
+    print ("\(moonflower)")
+}*/
